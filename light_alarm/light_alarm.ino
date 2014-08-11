@@ -153,8 +153,8 @@ void loop()
         minutes = 0;
         thisMillis = 0;
         digitalWrite(output, LOW);
-        lcd.print("Invalid Time");
-        lcd.setCursor(0,1);
+        //lcd.print("Invalid Time");
+        //lcd.setCursor(0,1);
       }
       if(minutes < 10)
       {
